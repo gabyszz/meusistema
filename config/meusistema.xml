@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+  <Resource name="jdbc/meusistema"
+            auth="Container"
+            type="javax.sql.DataSource"
+            driverClassName="com.mysql.cj.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/meusistema?useSSL=false&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=America/Sao_Paulo"
+            username="sistema"
+            password="Troque_Esta_Senha_123"
+            maxTotal="20"
+            maxIdle="5"
+            maxWaitMillis="10000"/>
+</Context>
